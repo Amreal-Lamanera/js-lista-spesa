@@ -43,8 +43,10 @@ while (index < shoppingList.length) {
 }
 
 // TODO: Bonus
+// Ho bisogno di 2 liste identiche perché le svuoterò stampando
 const shoppingListCopy = [];
 
+// Eseguo la copia con un ciclo for altrimenti con il semplice = creerei una variabile che punta al medesimo elemento array in memoria
 for (let i = 0; i < shoppingList.length; i++) {
     shoppingListCopy.push(shoppingList[i]);
 }
